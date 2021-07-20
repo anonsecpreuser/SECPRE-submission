@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<!DOCTYPE cairis_model PUBLIC "-//CAIRIS//DTD MODEL 1.0//EN" "http://cairis.org/dtd/cairis_model.dtd">
+<cairis_model>
+
+
+<tvtypes>
+<vulnerability_type name="Configuration" >
+  <description>A vulnerability resulting from an error in the configuration and administration of a system or component.</description>
+</vulnerability_type>
+<vulnerability_type name="Design" >
+  <description>A vulnerability inherent in the design or specification of hardware or software whereby even a perfect implementation will result in a vulnerability.</description>
+</vulnerability_type>
+<vulnerability_type name="Implementation" >
+  <description>A vulnerability resulting from an error made in implementing software or hardware of a satisfactory design.</description>
+</vulnerability_type>
+<threat_type name="Electronic/DoS and DDoS" >
+  <description>A Denial-of-Service (DoS) attack involves a malicious attempt to disrupt the operation of a computer system or network that is connected to the Internet.  A Distributed Denial-of-Service (DDoS) attack is a more dangerous evolution of a DoS attack because it utilises a network of compromised zombie computers to mount the attack, so there is no identifiable single source.</description>
+</threat_type>
+<threat_type name="Electronic/Hacking" >
+  <description>Hackers want to get into your computer system and use them for their own purposes.  There are many hacking tools available on the internet as well as online communities actively discussing hacking techniques enabling even unskilled hackers to break into unprotected systems.  Hackers have a range of motives; from showing off their technical prowess, to theft of money, credentials or information, to cause damage.</description>
+</threat_type>
+<threat_type name="Electronic/Keystroke logging" >
+  <description>Keystroke loggers work by recording the sequence of key-strokes that a user types in.  The more sophisticated versions use filtering mechanisms to only record highly prized information such as email addresses, passwords and credit card number sequences.</description>
+</threat_type>
+<threat_type name="Electronic/Malware" >
+  <description>Malware is any program or file that is harmful to a computer, the term covers viruses, worms, Trojan horses, and spyware.  Malware is becoming increasingly sophisticated and can be used to compromise computers to install DOS zombie programs or other malicious programs.</description>
+</threat_type>
+<threat_type name="Electronic/Phishing and Spoofing" >
+  <description>Phishing describes a social engineering process designed to trick an organisation's customers into imparting confidential information such as passwords, personal data or banking and financial details.  Most commonly these are criminal attacks but the same techniques could be used by others to get sensitive information.</description>
+</threat_type>
+<threat_type name="Insider/Manipulation" >
+  <description>Sometimes deliberate attempts are made to acquire information or access by manipulating staff by using a range of influencing techniques.  This is sometimes described as social engineering, creating situations in which someone will willingly provide access to information, sites or systems to someone unauthorised to receive it.  Customer facing personnel who have been trained to be helpful and informative can be particularly vulnerable to such attacks.</description>
+</threat_type>
+<threat_type name="Insider/Sabotage" >
+  <description>Saborage is often committed by a former employee seeking revenge on their employer because of a personal grudge caused by a negative work related event such as dismissal.  Although it is sometimes planned well in advance, it can also be the result of an opportunistic moment.</description>
+</threat_type>
+<threat_type name="Natural" >
+  <description>Environment / Acts of Nature</description>
+</threat_type>
+<threat_type name="Physical" >
+  <description>Physical Security</description>
+</threat_type>
+</tvtypes>
+
+<domainvalues>
+<threat_value name="None" >
+  <description>No impact</description>
+</threat_value>
+<threat_value name="Low" >
+  <description>Water and sewage services: Excursions from Standard of Service</description>
+</threat_value>
+<threat_value name="Medium" >
+  <description>Water and sewage services: Moderate number of customers affected.  Moderate degradation of service delivery.</description>
+</threat_value>
+<threat_value name="High" >
+  <description>Water and sewage services: Large number of customers affected.  Widespread degration of service delivery, or failures.</description>
+</threat_value>
+<risk_value name="Negligible" >
+  <description>No notifiable or reportable security incident.</description>
+</risk_value>
+<risk_value name="Tolerable" >
+  <description>Localised security incident, readily contained.</description>
+</risk_value>
+<risk_value name="Undesirable" >
+  <description>Localised security incident causing disruption to core departmental services.</description>
+</risk_value>
+<risk_value name="Intolerable" >
+  <description>Significant security insident causing considerable or severe disruption to services.</description>
+</risk_value>
+<countermeasure_value name="None" >
+  <description>To be defined</description>
+</countermeasure_value>
+<countermeasure_value name="Low" >
+  <description>To be defined</description>
+</countermeasure_value>
+<countermeasure_value name="Medium" >
+  <description>To be defined</description>
+</countermeasure_value>
+<countermeasure_value name="High" >
+  <description>To be defined</description>
+</countermeasure_value>
+<severity_value name="Negligible" >
+  <description>Lack of services for reporting purposes.  No impact on quality or performance.</description>
+</severity_value>
+<severity_value name="Marginal" >
+  <description>Lack of service for a certain time.</description>
+</severity_value>
+<severity_value name="Critical" >
+  <description>Lack of services for a certain time frame, impacting water supply to enhanced sites, e.g. hospitals.</description>
+</severity_value>
+<severity_value name="Catastrophic" >
+  <description>Leads to death of one or more people, e.g. latent introduction of Cryptosporidium into the water supply.</description>
+</severity_value>
+<likelihood_value name="Incredible" >
+  <description>Likelihood of occurrence is negligible.</description>
+</likelihood_value>
+<likelihood_value name="Improbable" >
+  <description>Very low chance.</description>
+</likelihood_value>
+<likelihood_value name="Remote" >
+  <description>Low chance.</description>
+</likelihood_value>
+<likelihood_value name="Occasional" >
+  <description>Medium chance.</description>
+</likelihood_value>
+<likelihood_value name="Probable" >
+  <description>Fairly likely.</description>
+</likelihood_value>
+<likelihood_value name="Frequent" >
+  <description>More than likely.</description>
+</likelihood_value>
+</domainvalues>
+
+<cairis>
+<project_settings name="SECPRE Paper model" >
+  <background>This is a stripped down version of the ACME Water specification exemplar, to support the worked example in Section 4.</background>
+  <strategic_goals>None</strategic_goals>
+  <rich_picture image="" />
+  <scope>None</scope>
+</project_settings>
+<environment name="Default" short_code="DEF" >
+  <definition>Default</definition>
+  <asset_values>
+    <none>To be defined</none>
+    <low>To be defined</low>
+    <medium>To be defined</medium>
+    <high>To be defined</high>
+  </asset_values>
+</environment>
+</cairis>
+
+<riskanalysis>
+<asset name="Laptop" short_code="LT" type="Systems" is_critical="0">
+  <description>Instrument Tech laptop.  Development tools installed for uploading software to and from outstations and PLCs.</description>
+  <significance>Compromising the laptop could compromise any connected systems.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Default" property="availability" value="High">
+    <rationale>Unavailable laptops stymies ability to patch PLCs and other equipment.</rationale>
+  </security_property>
+</asset>
+<asset name="Software File" short_code="SWF" type="Information" is_critical="0">
+  <description>Software source file</description>
+  <significance>Logic controls settings of associated equipment</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Default" property="confidentiality" value="Medium">
+    <rationale>Software may contain sensitive hard coded data, or reveal their location via its algorithms.</rationale>
+  </security_property>
+  <security_property environment="Default" property="integrity" value="Medium">
+    <rationale>Tampering with the software impacts ability to report problems with attached equipment</rationale>
+  </security_property>
+  <security_property environment="Default" property="availability" value="Medium">
+    <rationale>Compromised software impacts availability and performance of attached equipment.</rationale>
+  </security_property>
+  <security_property environment="Default" property="accountability" value="Low">
+    <rationale>Useful to know who made changes to software source</rationale>
+  </security_property>
+</asset>
+<asset name="Telemetry Outstation" short_code="TMO" type="Systems" is_critical="0">
+  <description>Telemetry outstation attachd to network equipment</description>
+  <significance>Controls water treatment or distribution activities for associated equipment</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Default" property="availability" value="Medium">
+    <rationale>Responsible for water distribution and treatment</rationale>
+  </security_property>
+</asset>
+<asset name="Repository" short_code="SRE" type="Systems" is_critical="0">
+  <description>Software repository for storing control software</description>
+  <significance>Stores copy of software and data installed on equipment across network</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Default" property="integrity" value="Medium">
+    <rationale>Important that source files are consistent with files on outstations</rationale>
+  </security_property>
+  <security_property environment="Default" property="availability" value="Medium">
+    <rationale>Repository should be accessible to instrument technicians whenever changes are made</rationale>
+  </security_property>
+  <security_property environment="Default" property="accountability" value="Medium">
+    <rationale>Changes should be associated with instrument technicians</rationale>
+  </security_property>
+</asset>
+<asset_association environment="Default"  head_name="Repository" head_nav="0" head_adornment="Composition" head_nry="1" head_role="" tail_role="r,w" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Software File">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Default"  head_name="Laptop" head_nav="0" head_adornment="Aggregation" head_nry="1..a" head_role="" tail_role="r,w" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Software File">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Default"  head_name="Telemetry Outstation" head_nav="0" head_adornment="Aggregation" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Software File">
+  <rationale></rationale>
+</asset_association>
+
+</riskanalysis>
+
+<usability>
+</usability>
+
+<goals>
+<goal name="Repository file read" originator="Anon">
+  <goal_environment name="Default" category="Maintain" priority="High" >
+    <definition>The software repository shall be able authorised to read software files.</definition>
+    <fit_criterion>TBC</fit_criterion>
+    <issue></issue>
+    <concern name="Software File" />
+    <concern name="Repository" />
+    <policy subject="Repository" access="read" resource="Software File" permission="allow" />
+  </goal_environment>
+</goal>
+<goal name="Repository file write" originator="Anon">
+  <goal_environment name="Default" category="Maintain" priority="High" >
+    <definition>The software repository shall be able authorised to write to software files.</definition>
+    <fit_criterion>TBC</fit_criterion>
+    <issue></issue>
+    <concern name="Software File" />
+    <concern name="Repository" />
+    <policy subject="Repository" access="write" resource="Software File" permission="allow" />
+  </goal_environment>
+</goal>
+<goal name="Laptop read file" originator="Anon">
+  <goal_environment name="Default" category="Maintain" priority="High" >
+    <definition>Laptop shall be able authorised to read software files.</definition>
+    <fit_criterion>TBC</fit_criterion>
+    <issue></issue>
+    <concern name="Laptop" />
+    <concern name="Software File" />
+    <policy subject="Laptop" access="read" resource="Software File" permission="allow" />
+  </goal_environment>
+</goal>
+<goal name="Laptop write file" originator="Anon">
+  <goal_environment name="Default" category="Maintain" priority="High" >
+    <definition>Laptop shall be able authorised to write to software files.</definition>
+    <fit_criterion>TBC</fit_criterion>
+    <issue></issue>
+    <concern name="Laptop" />
+    <concern name="Software File" />
+    <policy subject="Laptop" access="write" resource="Software File" permission="allow" />
+  </goal_environment>
+</goal>
+<goal name="Laptop interact Telemetry Network" originator="Anon">
+  <goal_environment name="Default" category="Maintain" priority="High" >
+    <definition>Laptop shall be able authorised to interact with the network.</definition>
+    <fit_criterion>TBC</fit_criterion>
+    <issue></issue>
+    <concern name="Laptop" />
+  </goal_environment>
+</goal>
+<goal name="Software file access control" originator="Anon">
+  <goal_environment name="Default" category="Maintain" priority="High" >
+    <definition>Access to software file resources shall be limited to authorised subjects.</definition>
+    <fit_criterion>TBC</fit_criterion>
+    <issue></issue>
+  </goal_environment>
+</goal>
+<goal name="Telemetry Network access control" originator="Anon">
+  <goal_environment name="Default" category="Maintain" priority="High" >
+    <definition>Access to the telemetry network shall be limited to authorised subjects.</definition>
+    <fit_criterion>TBC</fit_criterion>
+    <issue></issue>
+  </goal_environment>
+</goal>
+</goals>
+
+<associations>
+<goal_association environment="Default"  goal_name="Telemetry Network access control" goal_dim="goal" ref_type="and" subgoal_name="Laptop interact Telemetry Network" subgoal_dim="goal" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Default"  goal_name="Software file access control" goal_dim="goal" ref_type="and" subgoal_name="Laptop read file" subgoal_dim="goal" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Default"  goal_name="Software file access control" goal_dim="goal" ref_type="and" subgoal_name="Laptop write file" subgoal_dim="goal" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Default"  goal_name="Software file access control" goal_dim="goal" ref_type="and" subgoal_name="Repository file read" subgoal_dim="goal" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Default"  goal_name="Software file access control" goal_dim="goal" ref_type="and" subgoal_name="Repository file write" subgoal_dim="goal" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+</associations>
+
+<synopses>
+</synopses>
+
+<misusability>
+</misusability>
+
+<dataflows>
+</dataflows>
+
+
+
+<stories>
+</stories>
+
+</cairis_model>
